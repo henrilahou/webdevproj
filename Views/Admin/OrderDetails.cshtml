@@ -1,0 +1,39 @@
+﻿@model project.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h2>Order Details</h2>
+
+<div>
+    <h4>Order ID: @Model.Id</h4>
+    <p>Date Placed: @Model.OrderPlaced.ToString("g")</p>
+    <p>User ID: @Model.UserId</p>
+    <p>Total Price: @Model.Items.Sum(i => i.Quantity * i.PriceAtTimeOfOrder).ToString("C")</p>
+
+    <h3>Items</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price at Time of Order</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.PriceAtTimeOfOrder.ToString("C")</td>
+                    <td>@(item.Quantity * item.PriceAtTimeOfOrder).ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<a asp-action="ManageOrders">Back to Order List</a>

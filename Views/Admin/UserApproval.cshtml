@@ -1,0 +1,26 @@
+﻿@model IEnumerable<project.Models.UserApprovalViewModel>
+
+<h2>Pending User Approvals</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var userApprovalViewModel in Model)
+        {
+            <tr>
+                <td>@userApprovalViewModel.Email</td>
+                <td>
+                    <form asp-action="ApproveUser" method="post">
+                        <input type="hidden" name="userId" value="@userApprovalViewModel.UserId" />
+                        <input type="submit" value="Approve" class="btn btn-success" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<project.Models.Product>
+
+@{
+    ViewData["Title"] = "Manage Products";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-controller="Admin" asp-action="AddProduct" class="btn btn-success">Add New Product</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>$@product.Price.ToString("0.00")</td>
+                <td>@product.Stock</td>
+                <td>
+                    <a asp-controller="Admin" asp-action="EditProduct" asp-route-id="@product.Id" class="btn btn-primary">Edit</a>
+                    <form asp-action="DeleteProduct" asp-controller="Admin" method="post" class="inline">
+                        <input type="hidden" name="id" value="@product.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                        @Html.AntiForgeryToken()
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody> 
+</table>

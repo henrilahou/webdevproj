@@ -1,0 +1,35 @@
+﻿@model IEnumerable<project.Models.Order>
+
+@{
+    ViewData["Title"] = "Completed Orders";
+}
+
+<h2>Completed Orders</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>User ID</th>
+            <th>Date Placed</th>
+            <th>Total Price</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.UserId</td>
+                <td>@order.OrderPlaced.ToString("g")</td>
+                <td>@order.Items.Sum(i => i.Quantity * i.PriceAtTimeOfOrder).ToString("C")</td>
+                <td>
+                    <!-- Add link to order details if needed -->
+                    <a asp-action="OrderDetails" asp-controller="Admin" asp-route-id="@order.Id">View Details</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
