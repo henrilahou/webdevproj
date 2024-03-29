@@ -10,7 +10,7 @@
     <h4>Order ID: @Model.Id</h4>
     <p>Date Placed: @Model.OrderPlaced.ToString("g")</p>
     <p>User ID: @Model.UserId</p>
-    <p>Total Price: @Model.Items.Sum(i => i.Quantity * i.PriceAtTimeOfOrder).ToString("C")</p>
+    <p>Total Price: @(Model.Items.Sum(i => i.Quantity * i.PriceAtTimeOfOrder).ToString("C"))</p>
 
     <h3>Items</h3>
     <table class="table">
@@ -20,6 +20,7 @@
                 <th>Quantity</th>
                 <th>Price at Time of Order</th>
                 <th>Total</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -28,8 +29,24 @@
                 <tr>
                     <td>@item.Product.Name</td>
                     <td>@item.Quantity</td>
-                    <td>@item.PriceAtTimeOfOrder.ToString("C")</td>
-                    <td>@(item.Quantity * item.PriceAtTimeOfOrder).ToString("C")</td>
+                    <td>@(item.PriceAtTimeOfOrder.ToString("C"))</td>
+                    <td>@((item.Quantity * item.PriceAtTimeOfOrder).ToString("C"))</td>
+                    <td>
+                        <!-- Form to edit item quantity -->
+                        <form asp-action="EditItemQuantity" asp-controller="Admin" method="post">
+                            <input type="hidden" name="orderId" value="@Model.Id" />
+                            <input type="hidden" name="itemId" value="@item.Id" />
+                            <input type="number" name="newQuantity" value="@item.Quantity" min="1" />
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </form>
+
+                        <!-- Form to remove an item from an order -->
+                        <form asp-action="DeleteItem" asp-controller="Admin" method="post">
+                            <input type="hidden" name="orderId" value="@Model.Id" />
+                            <input type="hidden" name="itemId" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                        </form>
+                    </td>
                 </tr>
             }
         </tbody>

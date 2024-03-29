@@ -364,6 +364,144 @@ namespace project.Controllers
             return View(userRolesViewModelList); // Make sure to pass the correct model type
         }
 
+        [HttpPost]
+        public async Task<IActionResult> EditItemQuantity(int orderId, int itemId, int newQuantity)
+        {
+            if (newQuantity < 1)
+            {
+                return View("Error", new ErrorViewModel { RequestId = "Quantity must be at least 1" });
+            }
+
+            var order = await _context.Orders
+                                      .Include(o => o.Items)
+                                      .ThenInclude(i => i.Product)
+                                      .FirstOrDefaultAsync(o => o.Id == orderId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            var item = order.Items.FirstOrDefault(i => i.Id == itemId);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            item.Quantity = newQuantity;
+
+            try
+            {
+                _context.Update(order);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!OrderExists(orderId))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            if (order.Items == null || !order.Items.Any() || order.Items.Sum(i => i.Quantity * i.PriceAtTimeOfOrder) <= 0)
+            {
+                _context.Orders.Remove(order);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(OrderDetails), new { id = orderId });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteItem(int orderId, int itemId)
+        {
+            var order = await _context.Orders
+                                      .Include(o => o.Items)
+                                      .ThenInclude(i => i.Product)
+                                      .SingleOrDefaultAsync(o => o.Id == orderId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            var item = order.Items.SingleOrDefault(i => i.Id == itemId);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            order.Items.Remove(item);
+            if (!order.Items.Any())
+            {
+                _context.Orders.Remove(order);
+            }
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!OrderExists(orderId))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            if (order.Items.Any())
+            {
+                return RedirectToAction(nameof(OrderDetails), new { id = orderId });
+            }
+            else
+            {
+                return RedirectToAction(nameof(ManageOrders));
+            }
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteOrder(int orderId)
+        {
+            var order = await _context.Orders.Include(o => o.Items).SingleOrDefaultAsync(o => o.Id == orderId);
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            _context.Orders.Remove(order);
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!OrderExists(orderId))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return RedirectToAction(nameof(ManageOrders));
+        }
+
+        private bool OrderExists(int id)
+        {
+            return _context.Orders.Any(e => e.Id == id);
+        }
 
 
 

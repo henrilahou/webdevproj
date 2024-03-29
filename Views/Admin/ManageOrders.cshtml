@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<project.Models.Order>
 
 @{
-    ViewData["Title"] = "Completed Orders";
+    ViewData["Title"] = "Manage Orders";
 }
 
-<h2>Completed Orders</h2>
+<h2>Manage Orders</h2>
 
 <table class="table">
     <thead>
@@ -14,6 +14,7 @@
             <th>Date Placed</th>
             <th>Total Price</th>
             <th>Details</th>
+            <th></th> <!-- Added for delete column -->
         </tr>
     </thead>
     <tbody>
@@ -25,9 +26,14 @@
                 <td>@order.OrderPlaced.ToString("g")</td>
                 <td>@order.Items.Sum(i => i.Quantity * i.PriceAtTimeOfOrder).ToString("C")</td>
                 <td>
-                    <!-- Add link to order details if needed -->
                     <a asp-action="OrderDetails" asp-controller="Admin" asp-route-id="@order.Id">View Details</a>
-
+                </td>
+                <td>
+                    <form asp-action="DeleteOrder" asp-controller="Admin" method="post" onsubmit="return confirm('Are you sure you want to delete this order?');">
+                        <input type="hidden" name="orderId" value="@order.Id" />
+                        <button type="submit" class="btn btn-danger">Delete Order</button>
+                        @Html.AntiForgeryToken()
+                    </form>
                 </td>
             </tr>
         }
