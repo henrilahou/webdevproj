@@ -291,21 +291,20 @@ namespace project.Controllers
 
             if (ModelState.IsValid)
             {
-                var productToUpdate = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+                var productToUpdate = await _context.Products.FindAsync(id);
                 if (productToUpdate != null)
                 {
                     productToUpdate.Name = product.Name;
                     productToUpdate.Price = product.Price;
                     productToUpdate.Description = product.Description;
-                    productToUpdate.Stock = product.Stock;
+                   // productToUpdate.Stock = product.Stock; // Make sure this is a non-required field or included in the form.
                     productToUpdate.Category = product.Category;
-                    // Add any additional fields you need to update here
 
                     try
                     {
                         _context.Update(productToUpdate);
                         await _context.SaveChangesAsync();
-                        return RedirectToAction(nameof(ManageProducts)); // Redirect to the ManageProducts page
+                        return RedirectToAction(nameof(ManageProducts));
                     }
                     catch (DbUpdateConcurrencyException ex)
                     {
@@ -314,11 +313,17 @@ namespace project.Controllers
                             "see your system administrator.");
                     }
                 }
+                else
+                {
+                    return NotFound();
+                }
             }
 
             // If we get here, something went wrong, re-show form
             return View(product);
         }
+
+
 
         private bool ProductExists(int id)
         {
