@@ -24,12 +24,14 @@ public static class SeedData
                 Name = "Sourdough Bread",
                 Price = 4.99M,
                 Description = "A loaf of fresh sourdough bread.",
+               // ImageUrl = "/images/Croissant.jpg",
                 Category = "Bread" // Provide a default category value
             },
             new Product
             {
                 Name = "Croissant",
                 Price = 2.99M,
+                //ImageUrl = "/images/Croissant.jpg",
                 Description = "Buttery and flaky croissant.",
                 Category = "Pastry" // Provide a default category value
             }

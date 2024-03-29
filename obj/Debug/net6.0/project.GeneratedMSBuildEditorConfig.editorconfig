@@ -98,6 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lahou/OneDrive/Documents/vives/fase 3/webDev/project/Views/Admin/OrderSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lahou/OneDrive/Documents/vives/fase 3/webDev/project/Views/Admin/UserApproval.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckFwcHJvdmFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -116,10 +120,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lahou/OneDrive/Documents/vives/fase 3/webDev/project/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/lahou/OneDrive/Documents/vives/fase 3/webDev/project/Views/Order/OrderSummary.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJTdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lahou/OneDrive/Documents/vives/fase 3/webDev/project/Views/Shared/Error.cshtml]

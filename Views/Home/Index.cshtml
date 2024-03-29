@@ -4,41 +4,44 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+<div class="container text-center mt-3">
     <h1 class="display-4">Welcome to The Breadpit</h1>
-    @if (ViewBag.CurrentUserName != null)
-    {
-        <p>Hello, @ViewBag.CurrentUserName! @(ViewBag.IsAdmin ? "(Admin)" : "")</p>
-    }
-    else
-    {
-        <p>Please <a href="@Url.Action("Login", "Account", new { area = "Identity" })">log in</a> to see personalized options.</p>
-    }
-    <hr />
+    <p class="mb-4">
+        @if (ViewBag.CurrentUserName != null)
+        {
+            <span>Hello, @ViewBag.CurrentUserName! @(ViewBag.IsAdmin ? "(Admin)" : "")</span>
+        }
+        else
+        {
+            <span>Please <a href="@Url.Action("Login", "Account", new { area = "Identity" })">log in</a> to see personalized options.</span>
+        }
+    </p>
     <p>Your one-stop shop for delicious breads and pastries.</p>
-    <hr />
-    <p>Have a look at our latest products below or start placing your order now.</p>
     <a class="btn btn-primary" href="@Url.Action("Cart", "Order")">View Cart</a>
 </div>
 
-<div class="row">
-    @foreach (var product in Model)
-    {
-        <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="@product.ImageUrl" alt="@product.Name">
-                <div class="card-body">
-                    <p class="card-text">@product.Name</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <small class="text-muted">$@product.Price.ToString("0.00")</small>
+<div class="container">
+    <div class="row mt-4">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card mb-4">
+@*                     <img class="card-img-top" src="@product.ImageUrl" alt="@product.Name">
+ *@                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Description</p>
+                        <p class="card-text">€@product.Price.ToString("0.00")</p>
                         <form asp-controller="Order" asp-action="AddToCart" method="post">
                             <input type="hidden" name="productId" value="@product.Id" />
-                            <input type="number" name="quantity" value="1" min="1" class="form-control" style="width: auto; margin-right: 10px;" />
-                            <button class="btn btn-sm btn-outline-secondary" type="submit">Add to Order</button>
+                            <div class="input-group mb-3">
+                                <input type="number" name="quantity" value="1" min="1" class="form-control" />
+                                <button class="btn btn-outline-secondary" type="submit">Add to Order</button>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
-    }
+        }
+    </div>
 </div>
+

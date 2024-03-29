@@ -25,7 +25,7 @@
                     </form>
                 </td>
                 <td>@item.PriceAtTimeOfOrder.ToString("C")</td>
-                <td>@(item.Quantity * item.PriceAtTimeOfOrder).ToString("C")</td>
+                <td>@((item.Quantity * item.PriceAtTimeOfOrder).ToString("C"))</td>
                 <td>
                     <form asp-action="RemoveFromCart" method="post">
                         <input type="hidden" name="productId" value="@item.ProductId" />
@@ -38,7 +38,7 @@
 </table>
 
 <div class="text-right">
-    <h3>Total: @Model.Items.Sum(i => i.Quantity * i.PriceAtTimeOfOrder).ToString("C")</h3>
+    <h3>Total: @(Model.Items.Sum(i => i.Quantity * i.PriceAtTimeOfOrder).ToString("C"))</h3>
     <a class="btn btn-secondary" href="@Url.Action("Index", "Home")">Continue Shopping</a>
     <a class="btn btn-primary" href="@Url.Action("Checkout", "Order")">Proceed to Checkout</a>
 </div>

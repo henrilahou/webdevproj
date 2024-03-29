@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OrderSummaryViewModel>
+
+@{
+    ViewData["Title"] = "Order Summary";
+}
+
+<h2>Order Summary</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Quantity</td>
+                <td>@item.TotalPrice.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Total Price of All Orders: @ViewBag.TotalOrderPrice.ToString("C")</h3>

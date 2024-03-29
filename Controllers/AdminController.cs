@@ -503,6 +503,24 @@ namespace project.Controllers
             return _context.Orders.Any(e => e.Id == id);
         }
 
+        [Authorize(Roles = "Admin, Supplier")]
+        public async Task<IActionResult> OrderSummary()
+        {
+            var summary = await _context.OrderItems
+                .Include(oi => oi.Product)
+                .GroupBy(oi => oi.Product.Name)
+                .Select(group => new OrderSummaryViewModel
+                {
+                    ProductName = group.Key,
+                    Quantity = group.Sum(oi => oi.Quantity),
+                    TotalPrice = group.Sum(oi => oi.Quantity * oi.PriceAtTimeOfOrder)
+                })
+                .ToListAsync();
+
+            ViewBag.TotalOrderPrice = summary.Sum(s => s.TotalPrice);
+
+            return View(summary);
+        }
 
 
         [HttpGet]

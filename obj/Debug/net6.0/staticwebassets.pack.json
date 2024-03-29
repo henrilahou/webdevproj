@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\images\\Croissant.jpg",
+      "PackagePath": "staticwebassets\\images\\Croissant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\images\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\product1.jpg"
+    },
+    {
       "Id": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
