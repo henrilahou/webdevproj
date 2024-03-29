@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +43,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Project/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\views\\admin\\userapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:views\\admin\\userapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\views\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -193,12 +197,12 @@
       "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:migrations\\20240327202852_adduserapprovalandbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Admin\\OrderSummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Admin\\OrderSummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\views\\admin\\ordersummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:views\\admin\\ordersummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\OrderSummaryViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\OrderSummaryViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|c:\\users\\lahou\\onedrive\\documents\\vives\\fase 3\\webdev\\project\\models\\ordersummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE2D229-467B-4C1C-BA2D-1C9CFCCA555D}|project.csproj|solutionrelative:models\\ordersummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -208,11 +212,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "favicon.ico -  [English (United Kingdom)] - Icon [16x16, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\favicon.ico -  [English (United Kingdom)] - Icon [16x16, 32 bit, BMP]",
+              "RelativeToolTip": "wwwroot\\favicon.ico -  [English (United Kingdom)] - Icon [16x16, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-03-29T18:16:49.338Z",
+              "EditorCaption": " -  [English (United Kingdom)] - Icon [16x16, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -225,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "OrderSummary.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Admin\\OrderSummary.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\OrderSummary.cshtml",
@@ -233,33 +249,60 @@
               "RelativeToolTip": "Views\\Admin\\OrderSummary.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T16:44:36.667Z"
+              "WhenOpened": "2024-03-29T16:44:36.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAswFwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:01:23.964Z"
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwDIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T10:24:45.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.AspNetRoles [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Project/True/SqlTable/dbo.AspNetRoles.sql",
-              "ToolTip": "dbo.AspNetRoles [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-28T11:30:28.786Z",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T10:00:32.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:01:23.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Project/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-28T11:30:28.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -272,20 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T10:00:32.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Cart.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Order\\Cart.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Cart.cshtml",
@@ -298,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserApproval.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Admin\\UserApproval.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\UserApproval.cshtml",
@@ -306,54 +336,39 @@
               "RelativeToolTip": "Views\\Admin\\UserApproval.cshtml",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwEkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T10:01:40.041Z"
+              "WhenOpened": "2024-03-27T10:01:40.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvw4AAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T10:24:45.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "dbo.AspNetRoleClaims [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Project/True/SqlTable/dbo.AspNetRoleClaims.sql",
               "ToolTip": "dbo.AspNetRoleClaims [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-29T16:59:40.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T16:59:40.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "dbo.AspNetUserRoles [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Project/True/SqlTable/dbo.AspNetUserRoles.sql",
               "ToolTip": "dbo.AspNetUserRoles [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-28T11:30:47.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T11:30:47.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "dbo.AspNetUsers [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Project/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-28T11:30:36.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T11:30:36.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "OrderSummaryViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\OrderSummaryViewModel.cs",
               "RelativeDocumentMoniker": "Models\\OrderSummaryViewModel.cs",
@@ -361,11 +376,12 @@
               "RelativeToolTip": "Models\\OrderSummaryViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T16:44:07.826Z"
+              "WhenOpened": "2024-03-29T16:44:07.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ManageOrders.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Admin\\ManageOrders.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\ManageOrders.cshtml",
@@ -373,11 +389,12 @@
               "RelativeToolTip": "Views\\Admin\\ManageOrders.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T10:00:39.66Z"
+              "WhenOpened": "2024-03-27T10:00:39.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "OrderDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Admin\\OrderDetails.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\OrderDetails.cshtml",
@@ -385,11 +402,12 @@
               "RelativeToolTip": "Views\\Admin\\OrderDetails.cshtml",
               "ViewState": "AQIAAAgAAAAAAAAAAAAwwDMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T16:19:53.183Z"
+              "WhenOpened": "2024-03-29T16:19:53.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "EditProduct.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Admin\\EditProduct.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\EditProduct.cshtml",
@@ -397,11 +415,12 @@
               "RelativeToolTip": "Views\\Admin\\EditProduct.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T16:06:21.822Z"
+              "WhenOpened": "2024-03-29T16:06:21.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AddProduct.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Admin\\AddProduct.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\AddProduct.cshtml",
@@ -409,11 +428,12 @@
               "RelativeToolTip": "Views\\Admin\\AddProduct.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T16:06:31.709Z"
+              "WhenOpened": "2024-03-29T16:06:31.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ManageProducts.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Admin\\ManageProducts.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\ManageProducts.cshtml",
@@ -421,11 +441,12 @@
               "RelativeToolTip": "Views\\Admin\\ManageProducts.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T10:00:46.98Z"
+              "WhenOpened": "2024-03-27T10:00:46.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "dbo.Products [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Project/True/SqlTable/dbo.Products.sql",
               "ToolTip": "dbo.Products [Data]",
@@ -434,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserRolesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\UserRolesViewModel.cs",
               "RelativeDocumentMoniker": "Models\\UserRolesViewModel.cs",
@@ -442,11 +463,12 @@
               "RelativeToolTip": "Models\\UserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T18:22:32.761Z"
+              "WhenOpened": "2024-03-27T18:22:32.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -454,11 +476,12 @@
               "RelativeToolTip": "Models\\ApplicationUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:00:13.169Z"
+              "WhenOpened": "2024-03-27T10:00:13.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -466,11 +489,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AQIAABkAAAAAAAAAAAAqwDIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T11:08:32.069Z"
+              "WhenOpened": "2024-03-27T11:08:32.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -478,11 +502,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AQIAAAcAAAAAAAAAAAAqwCcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T12:23:18.968Z"
+              "WhenOpened": "2024-03-29T12:23:18.968Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\SeedData.cs",
               "RelativeDocumentMoniker": "SeedData.cs",
@@ -490,11 +515,12 @@
               "RelativeToolTip": "SeedData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:01:30.846Z"
+              "WhenOpened": "2024-03-27T10:01:30.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -502,11 +528,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T15:36:42.053Z"
+              "WhenOpened": "2024-03-29T15:36:42.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UserApprovalViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\UserApprovalViewModel.cs",
               "RelativeDocumentMoniker": "Models\\UserApprovalViewModel.cs",
@@ -514,11 +541,12 @@
               "RelativeToolTip": "Models\\UserApprovalViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:47:25.588Z"
+              "WhenOpened": "2024-03-29T14:47:25.588Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
@@ -526,11 +554,12 @@
               "RelativeToolTip": "Models\\RegisterViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:50:24.996Z"
+              "WhenOpened": "2024-03-29T14:50:24.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "SessionExtensions.cs",
@@ -538,11 +567,12 @@
               "RelativeToolTip": "SessionExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:10:49.686Z"
+              "WhenOpened": "2024-03-28T08:10:49.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -550,11 +580,12 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:00:27.385Z"
+              "WhenOpened": "2024-03-27T10:00:27.385Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "OrderPurgeBackgroundService.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\OrderPurgeBackgroundService.cs",
               "RelativeDocumentMoniker": "OrderPurgeBackgroundService.cs",
@@ -562,11 +593,12 @@
               "RelativeToolTip": "OrderPurgeBackgroundService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAUwBkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:09:59.817Z"
+              "WhenOpened": "2024-03-27T20:09:59.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Order\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Create.cshtml",
@@ -574,11 +606,12 @@
               "RelativeToolTip": "Views\\Order\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T10:01:16.099Z"
+              "WhenOpened": "2024-03-27T10:01:16.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "OrderViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\OrderViewModel.cs",
               "RelativeDocumentMoniker": "Models\\OrderViewModel.cs",
@@ -586,11 +619,12 @@
               "RelativeToolTip": "Models\\OrderViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:01:11.465Z"
+              "WhenOpened": "2024-03-27T10:01:11.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "Models\\OrderItem.cs",
@@ -598,11 +632,12 @@
               "RelativeToolTip": "Models\\OrderItem.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAkwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:01:03.109Z"
+              "WhenOpened": "2024-03-27T10:01:03.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -610,11 +645,12 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAkwBcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:00:51.397Z"
+              "WhenOpened": "2024-03-27T10:00:51.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "ManageUserRolesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\ManageUserRolesViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ManageUserRolesViewModel.cs",
@@ -622,23 +658,25 @@
               "RelativeToolTip": "Models\\ManageUserRolesViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T18:23:10.346Z"
+              "WhenOpened": "2024-03-27T18:23:10.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA2wBwAAAAnAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwBwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:00:03.325Z"
+              "WhenOpened": "2024-03-27T10:00:03.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
@@ -646,11 +684,12 @@
               "RelativeToolTip": "Controllers\\OrderController.cs",
               "ViewState": "AQIAAMIAAAAAAAAAAAAcwMwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:00:56.355Z"
+              "WhenOpened": "2024-03-27T10:00:56.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "dbo.AspNetUserLogins [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Project/True/SqlTable/dbo.AspNetUserLogins.sql",
               "ToolTip": "dbo.AspNetUserLogins [Data]",
@@ -659,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -667,11 +706,12 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T10:00:23.292Z"
+              "WhenOpened": "2024-03-27T10:00:23.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -679,59 +719,64 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-27T10:00:17.485Z"
+              "WhenOpened": "2024-03-27T10:00:17.485Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "RegisterConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAABEAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAABBwBEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:24:22.759Z"
+              "WhenOpened": "2024-03-28T08:24:22.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "jquery.validate.unobtrusive.js",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
               "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
               "RelativeToolTip": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAIBQwAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-03-28T08:24:21.358Z"
+              "WhenOpened": "2024-03-28T08:24:21.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "jquery.js",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
               "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ViewState": "AQIAAEQqAAAAAAAAAAAAAEsqAAAiAAAA",
+              "ViewState": "AQIAAEEqAAAAAAAAAIBJwEsqAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-03-28T08:24:15.291Z"
+              "WhenOpened": "2024-03-28T08:24:15.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-27T11:03:59.24Z"
+              "WhenOpened": "2024-03-27T11:03:59.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -739,11 +784,12 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T20:38:35.45Z"
+              "WhenOpened": "2024-03-27T20:38:35.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -751,11 +797,12 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T20:38:36.909Z"
+              "WhenOpened": "2024-03-27T20:38:36.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -763,11 +810,12 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T20:38:38.352Z"
+              "WhenOpened": "2024-03-27T20:38:38.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -775,11 +823,12 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T20:38:39.894Z"
+              "WhenOpened": "2024-03-27T20:38:39.894Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -787,11 +836,12 @@
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T20:38:33.975Z"
+              "WhenOpened": "2024-03-27T20:38:33.975Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "20240327202852_AddUserApprovalAndBackgroundService.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Migrations\\20240327202852_AddUserApprovalAndBackgroundService.cs",
               "RelativeDocumentMoniker": "Migrations\\20240327202852_AddUserApprovalAndBackgroundService.cs",
@@ -799,11 +849,12 @@
               "RelativeToolTip": "Migrations\\20240327202852_AddUserApprovalAndBackgroundService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:28:52.689Z"
+              "WhenOpened": "2024-03-27T20:28:52.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "ManageNavPages.cs",
               "DocumentMoniker": "C:\\Users\\lahou\\OneDrive\\Documents\\vives\\fase 3\\webDev\\project\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
@@ -811,7 +862,8 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T11:08:47.202Z"
+              "WhenOpened": "2024-03-27T11:08:47.202Z",
+              "EditorCaption": ""
             }
           ]
         }
