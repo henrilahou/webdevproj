@@ -286,3 +286,4 @@ C:\Users\lahou\OneDrive\Documents\vives\fase 3\webDev\project\bin\Debug\net6.0\r
 C:\Users\lahou\OneDrive\Documents\vives\fase 3\webDev\project\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\lahou\OneDrive\Documents\vives\fase 3\webDev\project\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\lahou\OneDrive\Documents\vives\fase 3\webDev\project\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\lahou\OneDrive\Documents\vives\fase 3\webDev\project\obj\Debug\net6.0\project.sourcelink.json

@@ -78,7 +78,7 @@ app.Run();
 
 async Task SeedRolesAsync(RoleManager<IdentityRole> roleManager)
 {
-    string[] roleNames = { "Admin", "User" };
+    string[] roleNames = { "Admin", "User", "Supplier"};
     foreach (var roleName in roleNames)
     {
         var roleExist = await roleManager.RoleExistsAsync(roleName);

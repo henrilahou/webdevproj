@@ -45,6 +45,7 @@ namespace project.Controllers
             return View(orders);
         }
 
+        [HttpPost]
         public async Task<IActionResult> ApproveUser(string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
@@ -69,22 +70,88 @@ namespace project.Controllers
             return View("UserApproval");
         }
 
+        [HttpPost]
+        public async Task<IActionResult> AddRoleToUser(string userId, string roleName)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user != null && !await _userManager.IsInRoleAsync(user, roleName))
+            {
+                var result = await _userManager.AddToRoleAsync(user, roleName);
+                if (result.Succeeded)
+                {
+                   // return Json(new { success = true });
+                    return RedirectToAction(nameof(UserApproval));
+                }
+            }
+            return Json(new { success = false });
+        }
 
-        // Add a method for user role management
+        [HttpPost]
+        public async Task<IActionResult> RemoveRoleFromUser(string userId, string roleName)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user != null && await _userManager.IsInRoleAsync(user, roleName))
+            {
+                var result = await _userManager.RemoveFromRoleAsync(user, roleName);
+                if (result.Succeeded)
+                {
+                    //return Json(new { success = true });
+                    return RedirectToAction(nameof(UserApproval));
+                }
+            }
+            return Json(new { success = false });
+        }
+
+        public async Task<IActionResult> CreateUser(RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var result = await _userManager.CreateAsync(user, model.Password);
+                if (result.Succeeded)
+                {
+                    // Assign role here if necessary
+                    await _userManager.AddToRoleAsync(user, "Admin");
+                }
+            }
+            // Return a view if model state is not valid or after creating a user
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveAdmin(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user != null && await _userManager.IsInRoleAsync(user, "Admin"))
+            {
+                await _userManager.RemoveFromRoleAsync(user, "Admin");
+            }
+            return RedirectToAction(nameof(UserApproval));
+        }
+
+
+
         public async Task<IActionResult> ManageRoles()
         {
+            var roles = _roleManager.Roles.Select(r => r.Name).ToList();
             var users = _userManager.Users.ToList();
             var userRolesViewModel = new List<UserRolesViewModel>();
+
             foreach (ApplicationUser user in users)
             {
-                var thisViewModel = new UserRolesViewModel();
-                thisViewModel.UserId = user.Id;
-                thisViewModel.Email = user.Email;
-                thisViewModel.Roles = await GetUserRoles(user);
+                var thisViewModel = new UserRolesViewModel
+                {
+                    UserId = user.Id,
+                    Email = user.Email,
+                    Roles = await GetUserRoles(user),
+                    AvailableRoles = roles,
+                    IsAwaitingApproval = !user.EmailConfirmed
+                };
                 userRolesViewModel.Add(thisViewModel);
             }
             return View(userRolesViewModel);
         }
+
 
         private async Task<List<string>> GetUserRoles(ApplicationUser user)
         {
@@ -259,23 +326,41 @@ namespace project.Controllers
         }
 
 
-        // This action should display the users and their statuses for approval
         public async Task<IActionResult> UserApproval()
         {
-            var users = await _userManager.Users.ToListAsync();
-            var userApprovalViewModel = new List<UserApprovalViewModel>();
-            foreach (var user in users)
+            // var users = await _userManager.Users.ToListAsync();
+            var roles = await _roleManager.Roles.Select(r => r.Name).ToListAsync();
+            var users = _userManager.Users.ToList();
+            var userRolesViewModelList = new List<UserRolesViewModel>();
+            //foreach (var user in users)
+            //{
+            //    var thisViewModel = new UserRolesViewModel
+            //    {
+            //        UserId = user.Id,
+            //        Email = user.Email,
+            //        Roles = await GetUserRoles(user),
+            //        AvailableRoles = new List<string>(), // You need to populate this if you use it in the view
+            //        IsAwaitingApproval = !user.EmailConfirmed // Assuming this is what you mean by awaiting approval
+            //    };
+            //    userRolesViewModelList.Add(thisViewModel);
+            //}
+            foreach (ApplicationUser user in users)
             {
-                var thisViewModel = new UserApprovalViewModel
+                var thisViewModel = new UserRolesViewModel
                 {
                     UserId = user.Id,
                     Email = user.Email,
-                    IsApproved = user.EmailConfirmed // Or your logic for approval
+                    Roles = await GetUserRoles(user),
+                    AvailableRoles = roles, // Make sure this list is populated
+                    IsAwaitingApproval = !user.EmailConfirmed
                 };
-                userApprovalViewModel.Add(thisViewModel);
+                userRolesViewModelList.Add(thisViewModel);
             }
-            return View(userApprovalViewModel);
+            return View(userRolesViewModelList); // Make sure to pass the correct model type
         }
+
+
+
 
         [HttpGet]
         public async Task<IActionResult> OrderDetails(int id)
@@ -291,6 +376,23 @@ namespace project.Controllers
             }
 
             return View(order);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteUser(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                var result = await _userManager.DeleteAsync(user);
+                if (result.Succeeded)
+                {
+                    // Add logic for a successful deletion (redirect or a success message)
+                    return RedirectToAction(nameof(UserApproval));
+                }
+            }
+            // Add logic for a failed deletion
+            return View("Error");
         }
 
         [HttpPost]

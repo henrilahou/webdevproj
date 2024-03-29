@@ -1,26 +1,80 @@
-﻿@model IEnumerable<project.Models.UserApprovalViewModel>
+﻿@model IEnumerable<project.Models.UserRolesViewModel>
 
-<h2>Pending User Approvals</h2>
+<h2>User Management</h2>
 
 <table class="table">
     <thead>
         <tr>
             <th>Email</th>
+            <th>Current Roles</th>
             <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var userApprovalViewModel in Model)
+        @foreach (var userViewModel in Model)
         {
             <tr>
-                <td>@userApprovalViewModel.Email</td>
+                <td>@userViewModel.Email</td>
+                <td>@string.Join(", ", userViewModel.Roles)</td>
                 <td>
-                    <form asp-action="ApproveUser" method="post">
-                        <input type="hidden" name="userId" value="@userApprovalViewModel.UserId" />
-                        <input type="submit" value="Approve" class="btn btn-success" />
+                    @if (!userViewModel.IsAwaitingApproval)
+                    {
+                        <!-- Approval button -->
+                        <form asp-action="ApproveUser" asp-controller="Admin" method="post">
+                            <input type="hidden" name="userId" value="@userViewModel.UserId" />
+                            <button type="submit" class="btn btn-secondary" disabled>Approved</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <!-- Approval button -->
+                        <form asp-action="ApproveUser" asp-controller="Admin" method="post">
+                            <input type="hidden" name="userId" value="@userViewModel.UserId" />
+                            <button type="submit" class="btn btn-success">Approve</button>
+                        </form>
+                    }
+
+                    <!-- Add Role Form -->
+                    <form asp-action="AddRoleToUser" asp-controller="Admin" method="post">
+                        <input type="hidden" name="userId" value="@userViewModel.UserId" />
+                        <select name="roleName">
+                            <option value="">-- Select Role --</option>
+                            @foreach (var role in userViewModel.AvailableRoles.Except(userViewModel.Roles))
+                            {
+                                <option value="@role">@role</option>
+                            }
+                        </select>
+                        <button type="submit" class="btn btn-primary">Add Role</button>
+                    </form>
+
+
+                    <!-- Remove Role Form -->
+                    <form asp-action="RemoveRoleFromUser" asp-controller="Admin" method="post">
+                        <input type="hidden" name="userId" value="@userViewModel.UserId" />
+                        <select name="roleName">
+                            <option value="">-- Select Role --</option>
+                            @foreach (var role in userViewModel.Roles)
+                            {
+                                <option value="@role">@role</option>
+                            }
+                        </select>
+                        <button type="submit" class="btn btn-warning">Remove Role</button>
+                    </form>
+
+
+                    <!-- Delete User Form -->
+                    <form asp-action="DeleteUser" asp-controller="Admin" method="post">
+                        <input type="hidden" name="userId" value="@userViewModel.UserId" />
+                        <button type="submit" class="btn btn-danger">Delete User</button>
                     </form>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        // AJAX scripts if necessary for handling form submission without page reload
+    </script>
+}
